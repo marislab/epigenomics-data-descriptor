@@ -3,8 +3,7 @@ Scripts to call super enhancers, filter and generate ChIP-seq heatmaps for epige
 
 ## Table of Contents
 - [1. LILY (Super Enhancer calling)](#1.%20LILY%20(Super%20Enhancer%20calling))
-- [2. Filtering Super Enhancers (SEs)](#2.%20Filtering%20Super%20Enhancers%20(SEs))
-- [3. ChipSeq Heatmaps](3.%20ChipSeq%20Heatmaps)
+- [2. ChipSeq Heatmaps](3.%20ChipSeq%20Heatmaps)
 - [Additional info](#Additional%20info)
 
 <a name="1. LILY (Super Enhancer calling)"></a>
@@ -26,23 +25,8 @@ Script calls super enhances iteratively for all lines. Make sure to change data 
 Rscript lily.R
 ```
 
-<a name="2. Filtering Super Enhancers (SEs)"></a>
-## 2. Filtering Super Enhancers (SEs)
-This step filters for super enhances present in two or more MYCN amplified/non-amplified lines.
-Annotate all SEs called by LILY before running the filtering script.
-
-### Prerequisites
-Annotated SEs called by LILY (Annotations were performed using [Homer](http://homer.ucsd.edu/homer/ngs/annotation.html))
-
-### How to run
-Change paths to directories to reflect paths to your files.
-
-```R
-Rscript SEfilter.R
-```
-
-<a name="3. ChipSeq Heatmaps"></a>
-## 3. ChipSeq Heatmaps
+<a name="2. ChipSeq Heatmaps"></a>
+## 2. ChipSeq Heatmaps
 ChipSeq heatmaps were generated for MYCN (annotating top 5K peaks) and all histone marks for COGN415 line (annotating filtered SEs from step 2)
 
 ### Prerequisites
