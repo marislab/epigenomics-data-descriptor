@@ -3,7 +3,8 @@ Scripts to call super enhancers, filter and generate ChIP-seq heatmaps for epige
 
 ## Table of Contents
 - [1. LILY (Super Enhancer calling)](#1.%20LILY%20(Super%20Enhancer%20calling))
-- [2. ChipSeq Heatmaps](3.%20ChipSeq%20Heatmaps)
+- [2. ChipSeq Heatmaps](2.%20ChipSeq%20Heatmaps)
+- [2a. MYCN Heatmaps](2a.%20MYCN%20Heatmaps)
 - [Additional info](#Additional%20info)
 
 <a name="1. LILY (Super Enhancer calling)"></a>
