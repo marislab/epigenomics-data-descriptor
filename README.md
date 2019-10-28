@@ -27,7 +27,7 @@ Rscript lily.R
 
 <a name="2. ChipSeq Heatmaps"></a>
 ## 2. ChipSeq Heatmaps
-ChipSeq heatmaps were generated for MYCN (annotating top 5K peaks) and all histone marks for COGN415 line (annotating filtered SEs from step 2)
+ChipSeq heatmaps were generated for MYCN (annotating top 5K peaks present in at least 5 mycn amplified cell lines) and all histone marks for COGN415 and NB69 line (annotating promoters, enhancers and super enhancers called from step 1)
 
 ### Prerequisites
 [deepTools 3.2.0](https://deeptools.readthedocs.io/en/develop/content/installation.html)
