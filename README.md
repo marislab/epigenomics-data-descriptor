@@ -38,14 +38,15 @@ To generate MYCN heatmaps (with top 5K peaks)
 Rscript makeHeatmaps.R
 ```
 
+
 To generate heatmaps of histone-marks for COGN415 and NB69:
 1. promoters
 ```R
-Rscript promoters.R
+Rscript promoterPlot.R
 ```
 2. enhancers
 ```R
-Rscript enhancers.R
+Rscript enhancerPlot.R
 ```
 1. Super Enhancers
 ```R
