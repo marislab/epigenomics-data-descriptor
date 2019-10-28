@@ -33,7 +33,7 @@ ChipSeq heatmaps were generated for MYCN (annotating top 5K peaks present in at 
 [deepTools 3.2.0](https://deeptools.readthedocs.io/en/develop/content/installation.html)
 
 ### How to run
-To generate MYCN heatmaps (with top 5K peaks)
+* To generate MYCN heatmaps (with top 5K peaks)
 ```R
 Rscript makeHeatmaps.R
 ```
@@ -41,7 +41,7 @@ Rscript makeHeatmaps.R
 
 
 To generate heatmaps of histone-marks for COGN415 and NB69:
-• To plot promoters
+* To plot promoters
 ```R
 Rscript promoterPlot.R
 ```
