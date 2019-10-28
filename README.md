@@ -38,14 +38,18 @@ To generate MYCN heatmaps (with top 5K peaks)
 Rscript makeHeatmaps.R
 ```
 
-To generate COGN415-histone-marks (with filtered SEs)
-```bash
-computeMatrix reference-point -S bigwigs/COGN415-H3K27Ac.bw bigwigs/COGN415-H3K27me3.bw bigwigs/COGN415-H3K4me1.bw bigwigs/COGN415-H3K4me3.bw -R SE_filtered/SE_filtered.bed -a 4000 -b 4000 --sortUsing max --skipZeros -o COGN415.mat.gz
-
-plotHeatmap -m COGN415.mat.gz --colorList 'white,#ff7400' 'white,#004000' 'white,#00007F' 'white,#6F326F' --whatToShow 'heatmap and colorbar' --sortRegions descend --sortUsing max --zMin 0 --zMax 4 --regionsLabel Super_Enhancers -out COGN415.png
-
-plotProfile -m COGN415.mat.gz -out COGN415.profile.png --perGroup  --colors orange green blue purple --regionsLabel Super_Enhancers --plotHeight 10 --plotWidth 15
-
+To generate heatmaps of histone-marks for COGN415 and NB69:
+1. promoters
+```R
+Rscript promoters.R
+```
+2. enhancers
+```R
+Rscript enhancers.R
+```
+1. Super Enhancers
+```R
+Rscript SEPlot.R
 ```
 
 <a name="Additional info"></a>
