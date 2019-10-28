@@ -39,6 +39,7 @@ Rscript makeHeatmaps.R
 ```
 
 
+
 To generate heatmaps of histone-marks for COGN415 and NB69:
 1. promoters
 ```R
@@ -48,7 +49,7 @@ Rscript promoterPlot.R
 ```R
 Rscript enhancerPlot.R
 ```
-1. Super Enhancers
+3. Super Enhancers
 ```R
 Rscript SEPlot.R
 ```
