@@ -1,6 +1,8 @@
 # epigenomics-data-descriptor
 Scripts to call super enhancers, filter and generate ChIP-seq heatmaps for [neuroblastoma epigenomics data descriptor paper](https://www.biorxiv.org/content/10.1101/829754v2), and to calculate IDR.
 
+[![DOI](https://zenodo.org/badge/208844258.svg)](https://zenodo.org/badge/latestdoi/208844258)
+
 ## Table of Contents
 - [1. LILY (Super Enhancer calling)](#1.%20LILY%20(Super%20Enhancer%20calling))
 - [2. ChipSeq Heatmaps](#2.%20ChipSeq%20Heatmaps)
