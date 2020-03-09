@@ -53,7 +53,7 @@ Rscript enhancerPlot.R
 Rscript SEPlot.R
 ```
 
-<a name="IDR Analysis"></a>
+<a name="3. IDR Analysis"></a>
 ## 3. IDR Analysis
 
 The number of peaks passing the IDR threshold is calculated between true replicates (Nt), pooled pseudoreplicates (Np), self-pseudoreplicates1 (N1) and self-pseudoreplicates2 (N2).
