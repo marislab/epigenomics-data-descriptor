@@ -70,7 +70,7 @@ qsub iqr_selfreps_noinput.sh Cell_REP1 Cell_REP2 Cell_Merged_Self_IDR
 
 <a name="Additional info"></a>
 ## Additional info
-> Author: patelk26@email.chop.edu
+> Authors: Khushbu Patel (@kpatel427), Apexa Modi (@apexamodi), Jo Lynne Rokita (@jharenza)
 
 > Organization: The Children's Hospital of Philadelphia (CHOP)
 
