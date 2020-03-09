@@ -6,8 +6,8 @@ mycn_bw <- '/mnt/isilon/maris_lab/target_nbl_ngs/ChipSeqAnalysis/mycn-myc-full-d
 mycn_alt_bw <- '/mnt/isilon/maris_lab/target_nbl_ngs/ChipSeqAnalysis/mycn-chip-testdir/peakfiles/bigwig/'
 cl <- c('COGN415-NMYC-20171205','Kelly-MYCN-20150914', 'LAN5-NMYC-20171205', 'NB1643-NMYC-20171205', 'NB69-NMYC-20171205', 'NGP-MYCN-20150914')
 
-top_5K_mycn_peaks <- '/mnt/isilon/maris_lab/target_nbl_ngs/KP/chipseq_heatmaps/2020-02-26/files/mycnAmp_top5K_peaks.bed'
-MYCN_heatmap_dir <- '/mnt/isilon/maris_lab/target_nbl_ngs/KP/chipseq_heatmaps/2020-02-26/MYCN/'
+top_5K_mycn_peaks <- '~/KP/chipseq_heatmaps/2020-02-26/files/mycnAmp_top5K_peaks.bed'
+MYCN_heatmap_dir <- '~/KP/chipseq_heatmaps/2020-02-26/MYCN/'
 
 #.. For MYCN-----
 
@@ -41,7 +41,7 @@ for(x in cl){
 #.. For CMYC-----
 cmyc_bw <- '/mnt/isilon/maris_lab/target_nbl_ngs/ChipSeqAnalysis/mycn-myc-full-dataset/peakfiles/bigwig/'
 cmyc_cl <- c('KELLY-CMYC-20171205','SKNAS-CMYC-20171205','NB69-CMYC-20171205')
-CMYC_heatmap_dir <- '/mnt/isilon/maris_lab/target_nbl_ngs/KP/chipseq_heatmaps/2020-02-26/CMYC/'
+CMYC_heatmap_dir <- '~/KP/chipseq_heatmaps/2020-02-26/CMYC/'
 
 for(x in cmyc_cl){
   print(paste0('Processing...', x))
